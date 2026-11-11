@@ -12,9 +12,20 @@
 <body>
   <header class="site-header" id="top">
     <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="JAIN GLUG home">
-        <span class="brand-mark">G</span><span>JAIN GLUG<span class="brand-dot">.</span></span>
-      </a>
+      <div class="nav-brand-group">
+        <a class="brand" href="#top" aria-label="JAIN GLUG home">
+          <span class="brand-mark">G</span><span>JAIN GLUG<span class="brand-dot">.</span></span>
+        </a>
+        <div class="nav-partner-logos" aria-label="Associated institutions">
+          <a href="https://set.jainuniversity.ac.in/" target="_blank" rel="noopener noreferrer" title="JAIN Faculty of Engineering and Technology">
+            <img src="images/jain-fet-logo.png" alt="JAIN Faculty of Engineering and Technology" class="nav-partner-logo nav-logo-jain" />
+          </a>
+          <span class="nav-partner-sep">×</span>
+          <a href="https://fsmk.org" target="_blank" rel="noopener noreferrer" title="Free Software Movement Karnataka">
+            <img src="images/fsmk-logo.png" alt="Free Software Movement Karnataka" class="nav-partner-logo nav-logo-fsmk" />
+          </a>
+        </div>
+      </div>
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span>
       </button>
@@ -37,6 +48,18 @@
         <div class="hero-actions">
           <a class="button button-primary" href="#what-we-do">Explore JAIN GLUG <span>↗</span></a>
           <a class="button button-secondary" href="#team">Meet the community</a>
+        </div>
+        <div class="hero-partners">
+          <span class="hero-partners-label">In collaboration with</span>
+          <div class="hero-partner-chips">
+            <a class="hero-partner-chip" href="https://set.jainuniversity.ac.in/" target="_blank" rel="noopener noreferrer" title="JAIN University — Faculty of Engineering and Technology">
+              <img src="images/jain-fet-logo.png" alt="JAIN Faculty of Engineering and Technology" />
+            </a>
+            <span class="hero-partner-x">×</span>
+            <a class="hero-partner-chip" href="https://fsmk.org" target="_blank" rel="noopener noreferrer" title="Free Software Movement Karnataka">
+              <img src="images/fsmk-logo.png" alt="Free Software Movement Karnataka" />
+            </a>
+          </div>
         </div>
       </div>
       <div class="hero-art" aria-label="Illustration of a terminal showing the spirit of free software">
@@ -63,6 +86,12 @@
         <div class="section-heading">
           <p class="eyebrow">01 / THE IDEA</p>
           <h2>More than a group.<br /><span>A space to grow.</span></h2>
+          <div class="section-logo-card">
+            <span class="section-logo-label">Free Software Movement Karnataka</span>
+            <a href="https://fsmk.org" target="_blank" rel="noopener noreferrer" title="Visit FSMK official site">
+              <img src="images/fsmk-logo.png" alt="Free Software Movement Karnataka (FSMK)" class="section-brand-logo" />
+            </a>
+          </div>
         </div>
         <div class="section-copy">
           <h3>Technology should empower people — not limit them.</h3>
@@ -110,7 +139,15 @@
 
     <section class="section ju-section" id="ju-fet">
       <div class="container ju-layout">
-        <div class="ju-stamp"><span>JAIN</span><strong>FET</strong><small>LEARN · BUILD · SHARE</small></div>
+        <div class="ju-visual">
+          <div class="ju-logo-card">
+            <span class="ju-logo-label">Faculty of Engineering &amp; Technology</span>
+            <a href="https://set.jainuniversity.ac.in/" target="_blank" rel="noopener noreferrer" title="JAIN (Deemed-to-be University) FET">
+              <img src="images/jain-fet-logo.png" alt="JAIN Faculty of Engineering and Technology (JU-FET)" class="ju-brand-logo" />
+            </a>
+          </div>
+          <div class="ju-stamp"><span>JAIN</span><strong>FET</strong><small>LEARN · BUILD · SHARE</small></div>
+        </div>
         <div class="ju-copy">
           <p class="eyebrow">03 / OUR CAMPUS</p>
           <h2>Rooted at JU-FET.<br /><span>Open to everyone.</span></h2>
@@ -166,7 +203,23 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer-inner"><a class="brand footer-brand" href="#top"><span class="brand-mark">G</span><span>JAIN GLUG<span class="brand-dot">.</span></span></a><p>Built on curiosity. Sustained by community.</p><a href="#top">Back to top ↑</a><small>© <span id="year"></span> JAIN GLUG · Free Software · Shared Knowledge</small></div>
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">G</span><span>JAIN GLUG<span class="brand-dot">.</span></span></a>
+      <div class="footer-partners">
+        <span class="footer-partners-label">In collaboration with</span>
+        <div class="footer-partner-badges">
+          <a href="https://set.jainuniversity.ac.in/" target="_blank" rel="noopener noreferrer" title="JAIN Faculty of Engineering and Technology">
+            <img src="images/jain-fet-logo.png" alt="JAIN Faculty of Engineering and Technology" class="footer-logo" />
+          </a>
+          <a href="https://fsmk.org" target="_blank" rel="noopener noreferrer" title="Free Software Movement Karnataka">
+            <img src="images/fsmk-logo.png" alt="Free Software Movement Karnataka" class="footer-logo" />
+          </a>
+        </div>
+      </div>
+      <p>Built on curiosity. Sustained by community.</p>
+      <a href="#top">Back to top ↑</a>
+      <small>© <span id="year"></span> JAIN GLUG · Free Software · Shared Knowledge</small>
+    </div>
   </footer>
 </body>
 </html>
